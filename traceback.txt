@@ -1,20 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 130, in script
+  File "game/script.rpy", line 190, in script
     call screen artgallerys
   File "game/script.rpy", line 36, in execute
     screen artgallerys():
   File "game/script.rpy", line 36, in execute
     screen artgallerys():
-  File "game/script.rpy", line 40, in execute
+  File "game/script.rpy", line 47, in execute
     imagebutton :
-Exception: Not a displayable: <store.SetVariable object at 0x1061a6090>
+Exception: Imagebutton does not have a idle image. (auto='art_options/candel_%s.png').
 
 -- Full Traceback ------------------------------------------------------------
 
 Traceback (most recent call last):
-  File "game/script.rpy", line 130, in script
+  File "game/script.rpy", line 190, in script
     call screen artgallerys
   File "renpy/ast.py", line 2251, in execute
     self.call("execute")
@@ -72,26 +72,16 @@ Traceback (most recent call last):
     screen artgallerys():
   File "game/script.rpy", line 36, in execute
     screen artgallerys():
-  File "game/script.rpy", line 40, in execute
+  File "game/script.rpy", line 47, in execute
     imagebutton :
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x1061a6090>
+  File "renpy/ui.py", line 963, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ui.py", line 957, in choice
+    raise Exception("Imagebutton does not have a %s image. (auto=%r)." % (name, auto))
+Exception: Imagebutton does not have a idle image. (auto='art_options/candel_%s.png').
 
 macOS-26.5-arm64-arm-64bit arm64
 Ren'Py 8.5.3.26051504
 gushing abt my fav panels from mhanwas 1.0
-Wed Jun 24 10:09:22 2026
+Wed Jun 24 10:55:42 2026

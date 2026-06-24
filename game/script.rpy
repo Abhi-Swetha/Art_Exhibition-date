@@ -22,7 +22,7 @@ image bg artgallery = "images/bg main.png"
 
 #artworks
 image ballet= "images/bg ballet.png"
-image candel = "images/bg candel.png"
+image candle = "images/bg candle.png"
 image field = "images/bg field.png"
 image invert = "images/bg invert.png"
 image invertpt2 = "images/bg invertpt2.png"
@@ -32,22 +32,97 @@ image slime= "images/bg slime.png"
 image uravity = "images/bg uravity.png"
 
 # The game starts here.
+default l = 0
+default h=0
+default x=1
+default art=0
+
+$ global h
+$ global x
+
+$ ballet=False
+$ candle=False
+$ field=False
+$ invert=False
+$ sea=False
+$ sunpencil=False
+$ slime=False
+$ uravity=False
 
 screen artgallerys():
     add "bg artgallery"
     modal True
 
+    if not ballet:
+        imagebutton :
+            auto "art_options/ballet_%s.png"
+            focus_mask True
+            hovered SetVariable("ballet", "ballet")
+            unhovered SetVariable("ballet", None)
+            action Jump("ballet")
+            $ ballet = True
+    else:
+        y"(didn't we already see that one?)"
+        y"(lets choose smt else)"
+
+
     imagebutton :
-        idle "art_options/ballet_idle.png"
-        hover "art_options/ballet_hover.png"
+        auto "art_options/candel_%s.png"
         focus_mask True
-        hovered SetVariable("ballet", "ballet")
-        unhovered SetVariable("ballet", None)
-        action Jump("ballet")
+        hovered SetVariable("candel", "candel")
+        unhovered SetVariable("candel", None)
+        action Jump("candle")
+
+    imagebutton :
+        auto "art_options/field_%s.png"
+        focus_mask True
+        hovered SetVariable("field", "field")
+        unhovered SetVariable("field", None)
+        action Jump("field")
+
+    imagebutton :
+        auto "art_options/invert_%s.png"
+        focus_mask True
+        hovered SetVariable("invert", "invert")
+        unhovered SetVariable("invert", None)
+        action Jump("invert")
+
+    imagebutton :
+        auto "art_options/door_%s.png"
+        focus_mask True
+        hovered SetVariable("door", "door")
+        unhovered SetVariable("door", None)
+        action Jump("door")
+
+    imagebutton :
+        auto "art_options/sea_%s.png"
+        focus_mask True
+        hovered SetVariable("sea", "sea")
+        unhovered SetVariable("sea", None)
+        action Jump("sea")
+
+    imagebutton :
+        auto "art_options/sunpencile_%s.png"
+        focus_mask True
+        hovered SetVariable("sunpencile", "sunpencile")
+        unhovered SetVariable("sunpencile", None)
+        action Jump("sunpencile")
+
+    imagebutton :
+        auto "art_options/slime_%s.png"
+        focus_mask True
+        hovered SetVariable("slime", "slime")
+        unhovered SetVariable("slime", None)
+        action Jump("slime")
+
+    imagebutton :
+        auto "art_options/uravity_%s.png"
+        focus_mask True
+        hovered SetVariable("uravity", "uravity")
+        unhovered SetVariable("uravity", None)
+        action Jump("uravity")
 
 
-
-default l = 0
 label start:
     scene bg room
     with fade
@@ -130,18 +205,3 @@ label artgallerys:
 
     call screen artgallerys 
 
-label ballet:
-    scene ballet
-    with fade
-    show L straighthappy 
-    e "Wow, this is beautiful! I love the way the ballerina is captured in mid-air. The colors are so vibrant and the movement is so graceful."
-    show L straightsmile
-    e "I could stare at this painting for hours!"
-    jump artgallerys
-
-label candel:
-    scene candel
-    with fade
-    show L straighthappy
-    e "This painting is so unique! I love the way the candle is depicted in such a realistic way, but the background is so abstract. It really makes the candle stand out."
-    jump artgallerys

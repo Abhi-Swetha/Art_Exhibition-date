@@ -1,22 +1,19 @@
-2026-06-24 04:14:02 UTC
+2026-06-24 05:47:54 UTC
 macOS-26.5-arm64-arm-64bit
 Ren'Py 8.5.3.26051504
 
-Early init took 24 ms
-Loading error handling took 90 ms
-Loading script took 425 ms
-Loading save slot metadata took 51 ms
+Early init took 26 ms
+Loading error handling took 112 ms
+Loading script took 431 ms
+Loading save slot metadata took 46 ms
 Loading persistent took 0 ms
 
-File "game/script.rpy", line 76: expected statement.
-    for i in range(1):
-          ^
+The label candel is defined twice, at File "game/candel.rpy", line 4:
+and File "game/candle.rpy", line 4:
+label candel:
 
-File "game/script.rpy", line 80: expected statement.
-    for i in range(1):
-          ^
 DPI scale factor: 1.000000
-Interface start took 1183 ms
+Interface start took 686 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1637, 1024)
@@ -26,30 +23,20 @@ Vendor: 'Apple'
 Renderer: 'Apple A18 Pro'
 Version: '2.1 Metal - 90.5'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(542, 305) drawable=(1084, 610)
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1001, 575) drawable=(2002, 1150)
-Maximum texture size: 4096x4096
-Resize event: <Event(65533-VIDEORESIZE h=575, mod=0, size=(1001, 575), w=1001)>
-Screen sizes: virtual=(1920, 1080) physical=(1029, 626) drawable=(2058, 1252)
-Maximum texture size: 4096x4096
-Resize event: <Event(65533-VIDEORESIZE h=626, mod=0, size=(1029, 626), w=1029)>
 Resetting cache.
-Early init took 15 ms
+Early init took 14 ms
 Loading error handling took 104 ms
-Loading script took 108 ms
+Loading script took 111 ms
 Loading save slot metadata took 9 ms
 Loading persistent took 0 ms
 
-File "game/script.rpy", line 76: expected statement.
-    for i in [1]:
-          ^
-
-File "game/script.rpy", line 80: expected statement.
-    for i in [1]:
-          ^
+File "game/script.rpy", line 63: expected a keyword argument or child statement.
+    $ballet=True
+    ^
 DPI scale factor: 1.000000
-Interface start took 60 ms
+Interface start took 53 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1637, 1024)
@@ -59,51 +46,18 @@ Vendor: 'Apple'
 Renderer: 'Apple A18 Pro'
 Version: '2.1 Metal - 90.5'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(542, 305) drawable=(1084, 610)
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(900, 541) drawable=(1800, 1082)
-Maximum texture size: 4096x4096
-Resize event: <Event(65533-VIDEORESIZE h=541, mod=0, size=(900, 541), w=900)>
 Resetting cache.
 Early init took 16 ms
-Loading error handling took 107 ms
-Loading script took 109 ms
+Loading error handling took 98 ms
+Loading script took 110 ms
 Loading save slot metadata took 9 ms
 Loading persistent took 0 ms
 
-File "game/script.rpy", line 79: expected statement.
-    break
-         ^
-
-File "game/script.rpy", line 81: expected statement.
-    for i in [1]:
-          ^
-DPI scale factor: 1.000000
-Interface start took 47 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(542, 305) drawable=(1084, 610)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(872, 578) drawable=(1744, 1156)
-Maximum texture size: 4096x4096
-Resize event: <Event(65533-VIDEORESIZE h=578, mod=0, size=(872, 578), w=872)>
-Resetting cache.
-Early init took 17 ms
-Loading error handling took 99 ms
-Loading script took 108 ms
-Loading save slot metadata took 9 ms
-Loading persistent took 0 ms
-
-File "game/script.rpy", line 85: expected statement.
-    for i in [1]:
-          ^
+File "game/script.rpy", line 63: expected a keyword argument or child statement.
+    $ballet=True
+    ^
 DPI scale factor: 1.000000
 Interface start took 48 ms
 
@@ -115,209 +69,66 @@ Vendor: 'Apple'
 Renderer: 'Apple A18 Pro'
 Version: '2.1 Metal - 90.5'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(542, 305) drawable=(1084, 610)
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 6 ms
+Loading script took 34 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 63: expected a keyword argument or child statement.
+    $ballet=True
+    ^
+DPI scale factor: 1.000000
+Interface start took 49 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 5 ms
+Loading script took 26 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 63: expected a keyword argument or child statement.
+    $ballet=True
+    ^
+DPI scale factor: 1.000000
+Interface start took 48 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
 Maximum texture size: 4096x4096
 Resetting cache.
 Early init took 3 ms
-Loading error handling took 8 ms
-Loading script took 33 ms
-Loading save slot metadata took 7 ms
-Loading persistent took 0 ms
-Running init code took 190 ms
-Loading analysis data took 4 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 6 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 20 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 16 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 1 ms
-Running _start took 0 ms
-Interface start took 221 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(542, 305) drawable=(1084, 610)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(543, 307) drawable=(1086, 614)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(570, 370) drawable=(1140, 740)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(662, 591) drawable=(1324, 1182)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(700, 680) drawable=(1400, 1360)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(732, 757) drawable=(1464, 1514)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(757, 816) drawable=(1514, 1632)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(775, 860) drawable=(1550, 1720)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(788, 892) drawable=(1576, 1784)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(798, 915) drawable=(1596, 1830)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(805, 931) drawable=(1610, 1862)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(809, 942) drawable=(1618, 1884)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(815, 956) drawable=(1630, 1912)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(816, 959) drawable=(1632, 1918)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(817, 961) drawable=(1634, 1922)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(819, 964) drawable=(1638, 1928)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(819, 965) drawable=(1638, 1930)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(819, 966) drawable=(1638, 1932)
-Maximum texture size: 4096x4096
-Resize event: <Event(65533-VIDEORESIZE h=966, size=(819, 966), w=819)>
-Resetting cache.
-Early init took 16 ms
-Loading error handling took 101 ms
-Loading script took 114 ms
-Loading save slot metadata took 9 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 19 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 20 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 141 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 111, in script
-    jump artgallery
-  File "renpy/ast.py", line 1938, in execute
-    rv = renpy.game.script.lookup(target)
-         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
-  File "renpy/script.py", line 1217, in lookup
-    raise LabelNotFound(original)
-renpy.script.LabelNotFound: could not find label 'artgallery'. Did you mean: 'artgallerys'?
-
-While running game code:
-  File "game/script.rpy", line 111, in script
-    jump artgallery
-renpy.script.LabelNotFound: could not find label 'artgallery'. Did you mean: 'artgallerys'?
-Resetting cache.
-Early init took 16 ms
-Loading error handling took 103 ms
-Loading script took 109 ms
-Loading save slot metadata took 8 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 3 ms
-Dump and make backups took 18 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 20 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 8 ms
-Analyze screens took 0 ms
-Save screen analysis took 0 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 99 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 111, in script
-    jump artgallery
-  File "renpy/ast.py", line 1938, in execute
-    rv = renpy.game.script.lookup(target)
-         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
-  File "renpy/script.py", line 1217, in lookup
-    raise LabelNotFound(original)
-renpy.script.LabelNotFound: could not find label 'artgallery'. Did you mean: 'artgallerys'?
-
-While running game code:
-  File "game/script.rpy", line 111, in script
-    jump artgallery
-renpy.script.LabelNotFound: could not find label 'artgallery'. Did you mean: 'artgallerys'?
-Resetting cache.
-Early init took 4 ms
 Loading error handling took 6 ms
-Loading script took 33 ms
+Loading script took 28 ms
 Loading save slot metadata took 6 ms
 Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 1 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 2 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 19 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 21 ms
+
+File "game/script.rpy", line 63: expected a keyword argument or child statement.
+    $ ballet=True
+    ^
 DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 99 ms
+Interface start took 47 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1637, 1024)
@@ -329,990 +140,18 @@ Version: '2.1 Metal - 90.5'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
 Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 130, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
-    ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 39, in execute
-    imagebutton auto "art_option/ballet_%s.png":
-  File "game/script.rpy", line 39, in keywords
-    imagebutton auto "art_option/ballet_%s.png":
-  File "renpy/python.py", line 1308, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/python.py", line 1301, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "game/script.rpy", line 43, in <module>
-    action jump("ballet")
-           ^^^^          
-NameError: name 'jump' is not defined. Did you mean: 'Jump'?
-
-While running game code:
-  File "game/script.rpy", line 130, in script
-    call screen artgallerys
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 39, in execute
-    imagebutton auto "art_option/ballet_%s.png":
-  File "game/script.rpy", line 39, in keywords
-    imagebutton auto "art_option/ballet_%s.png":
-  File "game/script.rpy", line 43, in <module>
-    action jump("ballet")
-           ^^^^          
-NameError: name 'jump' is not defined. Did you mean: 'Jump'?
-Resetting cache.
-Early init took 17 ms
-Loading error handling took 106 ms
-Loading script took 114 ms
-Loading save slot metadata took 8 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 20 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 20 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 100 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 130, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
-    ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 39, in execute
-    imagebutton auto "art_option/ballet_%s.png":
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x11e5f4bf0>
-
-While running game code:
-  File "game/script.rpy", line 130, in script
-    call screen artgallerys
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 35, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 39, in execute
-    imagebutton auto "art_option/ballet_%s.png":
-Exception: Not a displayable: <store.SetVariable object at 0x11e5f4bf0>
-Resetting cache.
-Early init took 17 ms
-Loading error handling took 103 ms
-Loading script took 116 ms
-Loading save slot metadata took 8 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 1 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 19 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 21 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 139 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 131, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
-    ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton auto "art_options/ballet_%s.png":
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x11e14bad0>
-
-While running game code:
-  File "game/script.rpy", line 131, in script
-    call screen artgallerys
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton auto "art_options/ballet_%s.png":
-Exception: Not a displayable: <store.SetVariable object at 0x11e14bad0>
-Resetting cache.
-Early init took 6 ms
-Loading error handling took 206 ms
-Loading script took 184 ms
-Loading save slot metadata took 8 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 1 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 19 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 46 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 25 ms
-Interface start took 299 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 133, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
-    ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton auto "ballet_%s.png":
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x105d7e510>
-
-While running game code:
-  File "game/script.rpy", line 133, in script
-    call screen artgallerys
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton auto "ballet_%s.png":
-Exception: Not a displayable: <store.SetVariable object at 0x105d7e510>
-Resetting cache.
-Early init took 6 ms
-Loading error handling took 222 ms
-Loading script took 209 ms
-Loading save slot metadata took 9 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 1 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 19 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 21 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 26 ms
-Interface start took 288 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 134, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
-    ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton:
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x10b983020>
-
-While running game code:
-  File "game/script.rpy", line 134, in script
-    call screen artgallerys
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton:
-Exception: Not a displayable: <store.SetVariable object at 0x10b983020>
-Resetting cache.
-Early init took 18 ms
-Loading error handling took 102 ms
-Loading script took 113 ms
-Loading save slot metadata took 8 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 19 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 21 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 141 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 129, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
-    ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton:
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x11e18ccb0>
-
-While running game code:
-  File "game/script.rpy", line 129, in script
-    call screen artgallerys
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton:
-Exception: Not a displayable: <store.SetVariable object at 0x11e18ccb0>
-Resetting cache.
-Early init took 18 ms
-Loading error handling took 96 ms
-Loading script took 115 ms
-Loading save slot metadata took 8 ms
-Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 4 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 20 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 21 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 99 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 129, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
-    ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton auto "art_options/ballet_%s.png":
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x1062bbda0>
-
-While running game code:
-  File "game/script.rpy", line 129, in script
-    call screen artgallerys
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton auto "art_options/ballet_%s.png":
-Exception: Not a displayable: <store.SetVariable object at 0x1062bbda0>
 Resetting cache.
 Early init took 3 ms
 Loading error handling took 6 ms
 Loading script took 35 ms
 Loading save slot metadata took 7 ms
 Loading persistent took 0 ms
-Running init code took 13 ms
-Loading analysis data took 2 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 18 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 21 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 0 ms
-Running _start took 0 ms
-Interface start took 98 ms
 
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 130, in script
-    call screen artgallerys
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 341, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/ui.py", line 306, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/core.py", line 2163, in interact
-    repeat, rv = self.interact_core(
-                 ~~~~~~~~~~~~~~~~~~^
-        preloads=preloads,
-        ^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        **kwargs,
-        ^^^^^^^^^
-    )
+File "game/script.rpy", line 63: expected a keyword argument or child statement.
+    $ ballet=True
     ^
-  File "renpy/display/core.py", line 2709, in interact_core
-    root_widget.visit_all(lambda d: d.per_interact())
-    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/displayable.py", line 460, in visit_all
-    d.visit_all(callback, seen)
-    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 503, in visit_all
-    callback(self)
-    ~~~~~~~~^^^^^^
-  File "renpy/display/core.py", line 2709, in <lambda>
-    root_widget.visit_all(lambda d: d.per_interact())
-                                    ~~~~~~~~~~~~~~^^ 
-  File "renpy/display/screen.py", line 514, in per_interact
-    self.update()
-    ~~~~~~~~~~~^^
-  File "renpy/display/screen.py", line 715, in update
-    self.screen.function(**self.scope)
-    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton :
-  File "renpy/ui.py", line 970, in _imagebutton
-    return renpy.display.behavior.ImageButton(
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-        idle,
-        ^^^^^
-    ...<7 lines>...
-        **properties,
-        ^^^^^^^^^^^^^
-    )
-    ^
-  File "renpy/display/behavior.py", line 1256, in __init__
-    idle_=renpy.easy.displayable(idle_image),
-          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^ 
-  File "renpy/easy.py", line 143, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: <store.SetVariable object at 0x1061a6090>
-
-While running game code:
-  File "game/script.rpy", line 130, in script
-    call screen artgallerys
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 36, in execute
-    screen artgallerys():
-  File "game/script.rpy", line 40, in execute
-    imagebutton :
-Exception: Not a displayable: <store.SetVariable object at 0x1061a6090>
-Resetting cache.
-Early init took 17 ms
-Loading error handling took 103 ms
-Loading script took 111 ms
-Loading save slot metadata took 9 ms
-Loading persistent took 0 ms
-
-File "game/script.rpy", line 45: keyword argument 'idle' appears more than once in a imagebutton statement.
-    idle SetVariable("ballet", None)
-        ^
 DPI scale factor: 1.000000
-Interface start took 54 ms
+Interface start took 48 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1637, 1024)
@@ -1324,40 +163,6 @@ Version: '2.1 Metal - 90.5'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
 Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
 Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 6 ms
-Loading error handling took 115 ms
-Loading script took 167 ms
-Loading save slot metadata took 8 ms
-Loading persistent took 0 ms
-Running init code took 29 ms
-Loading analysis data took 5 ms
-Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 3 ms
-Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
-Dump and make backups took 19 ms
-Cleaning cache took 0 ms
-Making clean stores took 0 ms
-Initial gc took 18 ms
-DPI scale factor: 1.000000
-Creating interface object took 0 ms
-Init translation took 0 ms
-Cleaning stores took 0 ms
-Load screen analysis took 0 ms
-Analyze screens took 4 ms
-Save screen analysis took 6 ms
-Save pyanalysis took 0 ms
-Save bytecode took 1 ms
-Running _start took 0 ms
-Interface start took 338 ms
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1637, 1024)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Apple'
-Renderer: 'Apple A18 Pro'
-Version: '2.1 Metal - 90.5'
-Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
-Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Screen sizes: virtual=(1920, 1080) physical=(1207, 809) drawable=(2414, 1618)
 Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=809, mod=0, size=(1207, 809), w=1207)>
