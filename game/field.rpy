@@ -6,21 +6,19 @@ $ global x
 label field:
     scene field
     with fade
-    e "Wow, this is beautiful! I love the way the ballerina is captured in mid-air. The colors are so vibrant and the movement is so graceful."
-    e"the ballerina dosent seem so happy though,"
-    e "I wonder what the artist was trying to convey with this painting. Maybe it's a commentary on the invisible struggles or ristricktion on those we admire?."
-    e"what do you think?"
+    e "Although, the sturation seems a bit high for the colors to me, i am not sure it its a stylistic choice or not.."
+    y"the clouds look th ebest in my opinion"
+    e "I wonder what the artist intention was, I dont know how to think of this piece.."
+    e"what about you?"
 
     menu:
-        "hmmm.... ":
-            
-            y"(shii.. i completely zoned out, but staying up late to reserve this place was worth it tho )"
-            y"(you can push through it !)"
-            y"('you gotta agree with everything the girl says'-how to get a girlfriend 101)"
-            y"I am not sure, i am sure its whatever you said !"
+        "not suree":
+            y"I am not sure...."
             e"oh..."
             e"well... it could be just a simple painting..."
             y"yeaa, definetly\n ;;-_- \n haha...."
+            y"sorry,i wasnt paying attention..., anyway lets move on!"
+            e"alright, you must be pretty tired. dw worry too much"
 
             $ l += (x-h*0.25)
             $ h+=1
@@ -28,7 +26,24 @@ label field:
             if h>3:
                 e"but still dont you think there might be more to it?"
                 y"uhhh..."
-                y"(i think i may have seemed uninterseted, fak... )"
-
-
+                y"(i think i may have seemed uninterseted... )"
+                y"well..."
+                call ex
+                e"so you {b}{i}DID{/b}{/i} think there was more to it! "
+                e"i thought you were nodding to everything i said cuz you were bored"
+                y"ofc ! Dude we have been friends for allmost our entire lives, what makes you think {b}{i}I{/i}{/b} would be bored in an {i}Art exhibition!{/i}. -_- ?"
+                e"yea , you're right. hehehe"
+                e "lets go to the next one!"
+                jump artgallerys
+        
+        "explain how it feels to you":
+            call ex
             jump artgallerys
+
+label ex:
+    y"I think the intent of this piece must be to give off a cool summer vibe?  "
+    e"i can see that, but if that was the intention wouldnt the colors saturation be a {b}{i}bit{/i}{/b} less saturated?"
+    y"hmmm.. well what we consider a summer vibe may be diffrent from their interpretation of it, yk?"
+    y"like how both us may have diffrent idea of what an ideal season is, ig?"
+    e"ahhh, that makes sense! may to them {b}summer{/b} must be birght sun and criket sound?"
+    y"smt like that!, afterall don't think the best part viewing artworks is to see how diffrent people have diffrent interpratations about the {i}same{/i} exact thing!"

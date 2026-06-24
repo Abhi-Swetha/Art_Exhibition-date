@@ -29,6 +29,4 @@ label sea:
                 e"but still dont you think there might be more to it?"
                 y"uhhh..."
                 y"(i think i may have seemed uninterseted, fak... )"
-
-
-            jump artgallerys
+                jump artgallerys

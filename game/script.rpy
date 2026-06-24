@@ -18,14 +18,14 @@ image L closedhappy = "images/L closedhappy.png"
 
 #all backgrounds
 image bg room = "images/bg mainplain.png"
-image bg artgallery = "images/bg main.png"
+image bg artgallery = "images/bg nodoor.png"
 
 #artworks
 image ballet= "images/bg ballet.png"
 image candle = "images/bg candle.png"
 image field = "images/bg field.png"
 image invert = "images/bg invert.png"
-image invertpt2 = "images/bg invertpt2.png"
+image invertpt2 = "images/bg invertp2.png"
 image sea = "images/bg sea.png"
 image sunpencil = "images/bg sunpencil.png"
 image slime= "images/bg slime.png"
@@ -74,6 +74,8 @@ screen artgallerys():
 
     imagebutton :
         auto "art_options/door_%s.png"
+        xalign 0.5
+        yalign 1
         focus_mask True
         hovered SetVariable("door", "door")
         unhovered SetVariable("door", None)
@@ -112,7 +114,7 @@ label start:
     with fade
     
     show L straighthappy 
-    
+    y and e " hehe"
     e "I Can't believe we are finally here! This is going to be my next new favorite place!"
     show L straightsmile 
 
@@ -131,20 +133,10 @@ label start:
     show L closedhappy
     e"Half the fun of going to an art gallery is just looking at the art and seeing what you like and dont like! You dont have to know anything about art to enjoy it!"
     show L straightsmile
-
-    $ g=True
-
-    while g:
-        show L straighthappy
-        show L closedhappy
-        $ g=False
-        
+    show L closedhappy
     e"Still , i am happy you put so much thought into this, "
-    while not g:
-        show L closedsmile
-        show L sidesmile
-        show L sidetalk
-        $ g=True
+    show L sidetalk
+        
 
     e"and here i thought your confession was a mean prank you pulled, and you agreed to the date to clear your name "
     show L sidesmile
@@ -211,14 +203,14 @@ label door_c:
             y "(lets see what artwork to look at next!)"
             jump artgallerys
 
-$ b_see=False
-$ c_see=False
-$ f_see=False
-$ i_see=False
-$ s_see=False
-$ Sp=False
-$ Sl=False
-$ u_see =False
+default b_see=False
+default c_see=False
+default f_see=False
+default i_see=False
+default s_see=False
+default Sp=False
+default Sl=False
+default u_see =False
 
 label b_c:
     if not b_see:
