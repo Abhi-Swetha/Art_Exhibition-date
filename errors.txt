@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 85: 'else' is not a keyword argument or valid child of the screen statement.
-    else:
-        ^
+File "game/uravity.rpy", line 10: unterminated string literal
+    y"god dang , yeaa! The artist must have poured their heart and soul into this
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Wed Jun 24 16:28:50 2026
+Wed Jun 24 22:56:04 2026

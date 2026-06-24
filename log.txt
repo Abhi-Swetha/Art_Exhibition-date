@@ -362,3 +362,2523 @@ Version: '2.1 Metal - 90.5'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
 Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
 Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 101 ms
+4 script files skipped.
+Loading script took 121 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 71: imagebutton expects a non-empty block.
+    else:
+         ^
+DPI scale factor: 1.000000
+Interface start took 44 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 16 ms
+Loading error handling took 100 ms
+4 script files skipped.
+Loading script took 113 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 93: 'action' is not a keyword argument or valid child of the screen statement.
+    action Jump ("doorno")
+          ^
+DPI scale factor: 1.000000
+Interface start took 48 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 6 ms
+4 script files skipped.
+Loading script took 29 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 93: 'action' is not a keyword argument or valid child of the screen statement.
+    action Jump ("doorno")
+          ^
+DPI scale factor: 1.000000
+Interface start took 48 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+4 script files skipped.
+Loading script took 33 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 93: 'jump' is not a keyword argument or valid child of the screen statement.
+    jump doorno
+        ^
+DPI scale factor: 1.000000
+Interface start took 48 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 103 ms
+1 script files skipped.
+Loading script took 125 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+
+File "game/sunpencil.rpy", line 1: expected statement.
+    zdefine e = Character("Laura",color="#ffeba9")
+              ^
+DPI scale factor: 1.000000
+Interface start took 49 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+Loading script took 37 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 364 ms
+Loading analysis data took 3 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 21 ms
+Cleaning cache took 0 ms
+Making clean stores took 23 ms
+Initial gc took 17 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 1 ms
+Running _start took 0 ms
+Interface start took 337 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 200, in script
+    call screen artgallerys
+  File "renpy/ast.py", line 2251, in execute
+    self.call("execute")
+    ~~~~~~~~~^^^^^^^^^^^
+  File "renpy/ast.py", line 2205, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/statements.py", line 381, in call
+    return method(parsed, *args, **kwargs)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/statementexports.py", line 341, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ui.py", line 306, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/core.py", line 2163, in interact
+    repeat, rv = self.interact_core(
+                 ~~~~~~~~~~~~~~~~~~^
+        preloads=preloads,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "renpy/display/core.py", line 2709, in interact_core
+    root_widget.visit_all(lambda d: d.per_interact())
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 460, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 460, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 460, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/screen.py", line 503, in visit_all
+    callback(self)
+    ~~~~~~~~^^^^^^
+  File "renpy/display/core.py", line 2709, in <lambda>
+    root_widget.visit_all(lambda d: d.per_interact())
+                                    ~~~~~~~~~~~~~~^^ 
+  File "renpy/display/screen.py", line 514, in per_interact
+    self.update()
+    ~~~~~~~~~~~^^
+  File "renpy/display/screen.py", line 715, in update
+    self.screen.function(**self.scope)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 63, in execute
+    imagebutton :
+  File "renpy/ui.py", line 963, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ui.py", line 957, in choice
+    raise Exception("Imagebutton does not have a %s image. (auto=%r)." % (name, auto))
+Exception: Imagebutton does not have a idle image. (auto='art_options/candel_%s.png').
+
+While running game code:
+  File "game/script.rpy", line 200, in script
+    call screen artgallerys
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 63, in execute
+    imagebutton :
+Exception: Imagebutton does not have a idle image. (auto='art_options/candel_%s.png').
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 103 ms
+Loading script took 120 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 20 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 20 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 101 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 200, in script
+    call screen artgallerys
+  File "renpy/ast.py", line 2251, in execute
+    self.call("execute")
+    ~~~~~~~~~^^^^^^^^^^^
+  File "renpy/ast.py", line 2205, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/statements.py", line 381, in call
+    return method(parsed, *args, **kwargs)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/statementexports.py", line 341, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ui.py", line 306, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/core.py", line 2163, in interact
+    repeat, rv = self.interact_core(
+                 ~~~~~~~~~~~~~~~~~~^
+        preloads=preloads,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "renpy/display/core.py", line 2709, in interact_core
+    root_widget.visit_all(lambda d: d.per_interact())
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 460, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 460, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/displayable.py", line 460, in visit_all
+    d.visit_all(callback, seen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "renpy/display/screen.py", line 503, in visit_all
+    callback(self)
+    ~~~~~~~~^^^^^^
+  File "renpy/display/core.py", line 2709, in <lambda>
+    root_widget.visit_all(lambda d: d.per_interact())
+                                    ~~~~~~~~~~~~~~^^ 
+  File "renpy/display/screen.py", line 514, in per_interact
+    self.update()
+    ~~~~~~~~~~~^^
+  File "renpy/display/screen.py", line 715, in update
+    self.screen.function(**self.scope)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 98, in execute
+    imagebutton :
+  File "renpy/ui.py", line 963, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ui.py", line 957, in choice
+    raise Exception("Imagebutton does not have a %s image. (auto=%r)." % (name, auto))
+Exception: Imagebutton does not have a idle image. (auto='art_options/sunpencile_%s.png').
+
+While running game code:
+  File "game/script.rpy", line 200, in script
+    call screen artgallerys
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 52, in execute
+    screen artgallerys():
+  File "game/script.rpy", line 98, in execute
+    imagebutton :
+Exception: Imagebutton does not have a idle image. (auto='art_options/sunpencile_%s.png').
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+Loading script took 39 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 20 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 101 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 102 ms
+Loading script took 123 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 21 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 100 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 25 ms
+Loading error handling took 27 ms
+Loading script took 102 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 5 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 21 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 142 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 20 ms
+Loading error handling took 127 ms
+Loading script took 278 ms
+Loading save slot metadata took 24 ms
+Loading persistent took 0 ms
+
+The label artgallery is defined twice, at File "game/script.rpy", line 193:
+label artgallery:
+and File "game/script.rpy", line 200:
+label artgallery:
+
+DPI scale factor: 1.000000
+Interface start took 321 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 7 ms
+Loading script took 44 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 2 ms
+Initial gc took 20 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 105 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 26 ms
+Loading error handling took 136 ms
+Loading script took 352 ms
+Loading save slot metadata took 35 ms
+Loading persistent took 0 ms
+Running init code took 68 ms
+Loading analysis data took 36 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 15 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 62 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 129 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 24 ms
+Save screen analysis took 25 ms
+Save pyanalysis took 0 ms
+Save bytecode took 1 ms
+Running _start took 2 ms
+Interface start took 332 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+
+While running game code:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+Loading script took 37 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 2 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 3 ms
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 8 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+
+While running game code:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+Loading script took 44 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 20 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 282, in script
+    if not Ur:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 282, in <module>
+    if not Ur:
+           ^^ 
+NameError: name 'Ur' is not defined
+
+While running game code:
+  File "game/script.rpy", line 282, in script
+    if not Ur:
+  File "game/script.rpy", line 282, in <module>
+    if not Ur:
+           ^^ 
+NameError: name 'Ur' is not defined
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 5 ms
+Loading script took 31 ms
+Loading save slot metadata took 5 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 1 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 8 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 282, in script
+    if not Ur:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 282, in <module>
+    if not Ur:
+           ^^ 
+NameError: name 'Ur' is not defined
+
+While running game code:
+  File "game/script.rpy", line 282, in script
+    if not Ur:
+  File "game/script.rpy", line 282, in <module>
+    if not Ur:
+           ^^ 
+NameError: name 'Ur' is not defined
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 5 ms
+Loading script took 39 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 20 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+
+While running game code:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+Resetting cache.
+Early init took 8 ms
+Loading error handling took 17 ms
+Loading script took 145 ms
+Loading save slot metadata took 22 ms
+Loading persistent took 0 ms
+Running init code took 62 ms
+Loading analysis data took 29 ms
+Analyze and compile ATL took 4 ms
+Reloading save slot metadata took 14 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 114 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 122 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 15 ms
+Save screen analysis took 26 ms
+Save pyanalysis took 0 ms
+Save bytecode took 1 ms
+Running _start took 2 ms
+Interface start took 441 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+
+While running game code:
+  File "game/script.rpy", line 282, in script
+    if not U:
+  File "game/script.rpy", line 282, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+Loading script took 39 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 2 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 21 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 112 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 281, in script
+    if not U:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 281, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+
+While running game code:
+  File "game/script.rpy", line 281, in script
+    if not U:
+  File "game/script.rpy", line 281, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 101 ms
+Loading script took 117 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 2 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 3 ms
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 23 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 8 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 104 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 281, in script
+    if not U:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 281, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+
+While running game code:
+  File "game/script.rpy", line 281, in script
+    if not U:
+  File "game/script.rpy", line 281, in <module>
+    if not U:
+           ^ 
+NameError: name 'U' is not defined
+Cleaning stores took 0 ms
+Load screen analysis took 13 ms
+Analyze screens took 0 ms
+Running _start took 2 ms
+
+Full traceback:
+  File "game/script.rpy", line 249, in script
+    if not I:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 249, in <module>
+    if not I:
+           ^ 
+NameError: name 'I' is not defined
+
+While running game code:
+  File "game/script.rpy", line 249, in script
+    if not I:
+  File "game/script.rpy", line 249, in <module>
+    if not I:
+           ^ 
+NameError: name 'I' is not defined
+Resetting cache.
+Early init took 28 ms
+Loading error handling took 132 ms
+Loading script took 177 ms
+Loading save slot metadata took 7 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 5 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 24 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 143 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+
+While running game code:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+Loading script took 32 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 2 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 8 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+
+While running game code:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 5 ms
+Loading script took 32 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 1 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 8 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+
+While running game code:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 5 ms
+Loading script took 32 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 1 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 8 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+
+While running game code:
+  File "game/script.rpy", line 249, in script
+    if not i_see:
+  File "game/script.rpy", line 249, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 7 ms
+Loading script took 53 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+Running init code took 15 ms
+Loading analysis data took 6 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 20 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 27 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 5 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 114 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 248, in script
+    if not i_see:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 248, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+
+While running game code:
+  File "game/script.rpy", line 248, in script
+    if not i_see:
+  File "game/script.rpy", line 248, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+Resetting cache.
+Early init took 31 ms
+Loading error handling took 123 ms
+Loading script took 292 ms
+Loading save slot metadata took 39 ms
+Loading persistent took 0 ms
+Running init code took 90 ms
+Loading analysis data took 13 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 21 ms
+Dump and make backups took 121 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 169 ms
+DPI scale factor: 1.000000
+Creating interface object took 3 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 17 ms
+Analyze screens took 1 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 157 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 248, in script
+    if not i_see:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 248, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+
+While running game code:
+  File "game/script.rpy", line 248, in script
+    if not i_see:
+  File "game/script.rpy", line 248, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 6 ms
+Loading script took 33 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 1 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 8 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 104 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(1638, 922)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 248, in script
+    if not i_see:
+  File "renpy/ast.py", line 2089, in execute
+    if renpy.python.py_eval(condition):
+       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^ 
+  File "renpy/python.py", line 1308, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1301, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/script.rpy", line 248, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+
+While running game code:
+  File "game/script.rpy", line 248, in script
+    if not i_see:
+  File "game/script.rpy", line 248, in <module>
+    if not i_see:
+           ^^^^^ 
+NameError: name 'i_see' is not defined. Did you mean: '_set'?
+Screen sizes: virtual=(1920, 1080) physical=(819, 461) drawable=(3274, 2048)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1637, 1024) drawable=(3274, 2048)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=1024, mod=0, size=(1637, 1024), w=1637)>
+Resetting cache.
+Early init took 33 ms
+Loading error handling took 140 ms
+Loading script took 397 ms
+Loading save slot metadata took 51 ms
+Loading persistent took 1 ms
+Running init code took 50 ms
+Loading analysis data took 20 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 12 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 70 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 118 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 2 ms
+Analyze screens took 24 ms
+Save screen analysis took 35 ms
+Save pyanalysis took 0 ms
+Save bytecode took 2 ms
+Running _start took 2 ms
+Interface start took 582 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(1637, 921) drawable=(3274, 1842)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1637, 1024) drawable=(3274, 2048)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=1024, mod=0, size=(1637, 1024), w=1637)>
+Requested resize to 1535x863, fullscreen=1, maximized=0
+Screen sizes: virtual=(1920, 1080) physical=(1637, 1024) drawable=(3274, 2048)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=1024, mod=0, size=(1637, 1024), w=1637)>
+Requested resize to 1535x863, fullscreen=0, maximized=0
+Screen sizes: virtual=(1920, 1080) physical=(1535, 863) drawable=(3070, 1726)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1047, 576) drawable=(2094, 1152)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=576, mod=0, size=(1047, 576), w=1047)>
+Screen sizes: virtual=(1920, 1080) physical=(942, 576) drawable=(1884, 1152)
+Maximum texture size: 4096x4096
+Resize event: <Event(65533-VIDEORESIZE h=576, mod=0, size=(942, 576), w=942)>
+Resetting cache.
+Early init took 10 ms
+Loading error handling took 102 ms
+Loading script took 126 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 5 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 23 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 102 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+Loading script took 43 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 21 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 101 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 7 ms
+4 script files skipped.
+Loading script took 39 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 77: the ypos keyword argument was not given a value.
+    ypos=o.5
+        ^
+DPI scale factor: 1.000000
+Interface start took 54 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 7 ms
+4 script files skipped.
+Loading script took 36 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 77: the ypos keyword argument was not given a value.
+    ypos=0.5
+        ^
+DPI scale factor: 1.000000
+Interface start took 50 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+4 script files skipped.
+Loading script took 34 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 77: the ypos keyword argument was not given a value.
+    ypos=0.5
+        ^
+DPI scale factor: 1.000000
+Interface start took 49 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+4 script files skipped.
+Loading script took 33 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 77: the ypos keyword argument was not given a value.
+    ypos=0.5
+        ^
+DPI scale factor: 1.000000
+Interface start took 49 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+4 script files skipped.
+Loading script took 33 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+
+File "game/script.rpy", line 77: the ypos keyword argument was not given a value.
+    ypos=0.5
+        ^
+DPI scale factor: 1.000000
+Interface start took 50 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 16 ms
+Loading error handling took 104 ms
+Loading script took 127 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+Running init code took 33 ms
+Loading analysis data took 2 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 20 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 1 ms
+Running _start took 0 ms
+Interface start took 145 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 6 ms
+Loading script took 42 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 0 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 18 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 21 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 103 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 7 ms
+Loading script took 42 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 3 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 103 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 7 ms
+Loading script took 45 ms
+Loading save slot metadata took 8 ms
+Loading persistent took 0 ms
+Running init code took 13 ms
+Loading analysis data took 4 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 19 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 22 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 103 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 6 ms
+Loading error handling took 238 ms
+Loading script took 173 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+Running init code took 14 ms
+Loading analysis data took 5 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 20 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 23 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 27 ms
+Interface start took 319 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Cleaning stores took 0 ms
+Load screen analysis took 17 ms
+Analyze screens took 0 ms
+Running _start took 2 ms
+Cleaning stores took 0 ms
+Load screen analysis took 18 ms
+Analyze screens took 0 ms
+Running _start took 2 ms
+Resetting cache.
+Early init took 23 ms
+Loading error handling took 143 ms
+9 script files skipped.
+Loading script took 234 ms
+Loading save slot metadata took 23 ms
+Loading persistent took 0 ms
+
+File "game/field.rpy", line 33: expected 'label_name' not found.
+    jump
+        ^
+DPI scale factor: 1.000000
+Interface start took 266 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 7 ms
+9 script files skipped.
+Loading script took 27 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+
+File "game/field.rpy", line 33: expected 'label_name' not found.
+    jump
+        ^
+DPI scale factor: 1.000000
+Interface start took 49 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3 ms
+Loading error handling took 6 ms
+9 script files skipped.
+Loading script took 25 ms
+Loading save slot metadata took 3 ms
+Loading persistent took 0 ms
+
+File "game/field.rpy", line 33: expected 'label_name' not found.
+    jump
+        ^
+DPI scale factor: 1.000000
+Interface start took 48 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2 ms
+Loading error handling took 5 ms
+9 script files skipped.
+Loading script took 24 ms
+Loading save slot metadata took 3 ms
+Loading persistent took 0 ms
+
+File "game/field.rpy", line 33: expected 'label_name' not found.
+    jump
+        ^
+DPI scale factor: 1.000000
+Interface start took 48 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 34 ms
+Loading script took 425 ms
+Loading save slot metadata took 39 ms
+Loading persistent took 0 ms
+Running init code took 173 ms
+Loading analysis data took 10 ms
+Analyze and compile ATL took 4 ms
+Reloading save slot metadata took 17 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 118 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 127 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 3 ms
+Analyze screens took 22 ms
+Save screen analysis took 37 ms
+Save pyanalysis took 0 ms
+Save bytecode took 10 ms
+Running _start took 2 ms
+Interface start took 603 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Cleaning stores took 0 ms
+Load screen analysis took 17 ms
+Analyze screens took 0 ms
+Running _start took 1 ms
+Resetting cache.
+Early init took 14 ms
+Loading error handling took 114 ms
+Loading script took 234 ms
+Loading save slot metadata took 26 ms
+Loading persistent took 0 ms
+Running init code took 48 ms
+Loading analysis data took 23 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 12 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 74 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 164 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 28 ms
+Save screen analysis took 34 ms
+Save pyanalysis took 0 ms
+Save bytecode took 2 ms
+Running _start took 3 ms
+Interface start took 508 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 21 ms
+Loading error handling took 126 ms
+Loading script took 284 ms
+Loading save slot metadata took 27 ms
+Loading persistent took 0 ms
+Running init code took 45 ms
+Loading analysis data took 9 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 12 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 67 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 125 ms
+DPI scale factor: 1.000000
+Creating interface object took 1 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 17 ms
+Save screen analysis took 30 ms
+Save pyanalysis took 0 ms
+Save bytecode took 1 ms
+Running _start took 2 ms
+Interface start took 476 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 23 ms
+Loading error handling took 125 ms
+Loading script took 276 ms
+Loading save slot metadata took 31 ms
+Loading persistent took 0 ms
+Running init code took 76 ms
+Loading analysis data took 28 ms
+Analyze and compile ATL took 3 ms
+Reloading save slot metadata took 16 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 83 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 105 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 1 ms
+Cleaning stores took 0 ms
+Load screen analysis took 1 ms
+Analyze screens took 20 ms
+Save screen analysis took 23 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 550 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 15 ms
+Loading error handling took 100 ms
+Loading script took 126 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+Running init code took 14 ms
+Loading analysis data took 5 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 20 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 23 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 0 ms
+Interface start took 104 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Cleaning stores took 0 ms
+Load screen analysis took 14 ms
+Analyze screens took 0 ms
+Running _start took 1 ms
+
+Full traceback:
+  File "game/script.rpy", line 117, in script
+    y and e " hehe"
+  File "renpy/ast.py", line 2935, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 994, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/sayexports.py", line 129, in say
+    who(what, *args, **kwargs)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1503, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1321, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^ 
+  File "renpy/character.py", line 1249, in resolve_say_attributes
+    raise Exception(
+    ...<2 lines>...
+    )
+Exception: Say has image attributes ('and', 'e'), but there's no image tag associated with the speaking character.
+
+While running game code:
+  File "game/script.rpy", line 117, in script
+    y and e " hehe"
+Exception: Say has image attributes ('and', 'e'), but there's no image tag associated with the speaking character.
+Resetting cache.
+Early init took 19 ms
+Loading error handling took 128 ms
+12 script files skipped.
+Loading script took 185 ms
+Loading save slot metadata took 15 ms
+Loading persistent took 0 ms
+
+File "game/ballet.rpy", line 42: expected statement.
+    "Actually...":
+                 ^
+DPI scale factor: 1.000000
+Interface start took 213 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 19 ms
+Loading error handling took 131 ms
+12 script files skipped.
+Loading script took 209 ms
+Loading save slot metadata took 25 ms
+Loading persistent took 0 ms
+
+File "game/ballet.rpy", line 42: expected statement.
+    "Actually...":
+                 ^
+DPI scale factor: 1.000000
+Interface start took 174 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 17 ms
+Loading error handling took 125 ms
+12 script files skipped.
+Loading script took 185 ms
+Loading save slot metadata took 15 ms
+Loading persistent took 0 ms
+
+File "game/ballet.rpy", line 50: expected statement.
+    "Actually...":
+                 ^
+DPI scale factor: 1.000000
+Interface start took 181 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 27 ms
+Loading error handling took 133 ms
+12 script files skipped.
+Loading script took 257 ms
+Loading save slot metadata took 29 ms
+Loading persistent took 0 ms
+
+File "game/ballet.rpy", line 53: expected statement.
+    "Actually...":
+                 ^
+DPI scale factor: 1.000000
+Interface start took 237 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 27 ms
+Loading error handling took 126 ms
+Loading script took 342 ms
+Loading save slot metadata took 9 ms
+Loading persistent took 0 ms
+
+The label ex is defined twice, at File "game/ballet.rpy", line 58:
+label ex:
+and File "game/field.rpy", line 49:
+label ex:
+
+
+The label ex is defined twice, at File "game/field.rpy", line 49:
+label ex:
+and File "game/sea.rpy", line 56:
+label ex:
+
+DPI scale factor: 1.000000
+Interface start took 128 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 24 ms
+Loading error handling took 121 ms
+Loading script took 439 ms
+Loading save slot metadata took 33 ms
+Loading persistent took 0 ms
+Running init code took 90 ms
+Loading analysis data took 16 ms
+Analyze and compile ATL took 2 ms
+Reloading save slot metadata took 10 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 93 ms
+Cleaning cache took 0 ms
+Making clean stores took 1 ms
+Initial gc took 120 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 2 ms
+Analyze screens took 16 ms
+Save screen analysis took 23 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+Running _start took 1 ms
+Interface start took 571 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 118, in script
+    y and e " hehe"
+  File "renpy/ast.py", line 2935, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 994, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/sayexports.py", line 129, in say
+    who(what, *args, **kwargs)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1503, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1321, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^ 
+  File "renpy/character.py", line 1249, in resolve_say_attributes
+    raise Exception(
+    ...<2 lines>...
+    )
+Exception: Say has image attributes ('and', 'e'), but there's no image tag associated with the speaking character.
+
+While running game code:
+  File "game/script.rpy", line 118, in script
+    y and e " hehe"
+Exception: Say has image attributes ('and', 'e'), but there's no image tag associated with the speaking character.
+Resetting cache.
+Early init took 27 ms
+Loading error handling took 126 ms
+Loading script took 242 ms
+Loading save slot metadata took 26 ms
+Loading persistent took 0 ms
+
+File "game/uravity.rpy", line 10: unterminated string literal
+    y"god dang , yeaa! The artist must have poured their heart and soul into this
+DPI scale factor: 1.000000
+Interface start took 249 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4 ms
+Loading error handling took 7 ms
+Loading script took 38 ms
+Loading save slot metadata took 6 ms
+Loading persistent took 0 ms
+Running init code took 34 ms
+Loading analysis data took 2 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 4 ms
+Backing up script files to '/Users/abhiswetha2008/Library/RenPy/backups/Museum-date':
+Dump and make backups took 20 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 19 ms
+DPI scale factor: 1.000000
+Creating interface object took 0 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 4 ms
+Save screen analysis took 6 ms
+Save pyanalysis took 0 ms
+Save bytecode took 1 ms
+Running _start took 0 ms
+Interface start took 111 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1637, 1024)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Apple'
+Renderer: 'Apple A18 Pro'
+Version: '2.1 Metal - 90.5'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1637, 'current_h': 1024, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(942, 530) drawable=(1884, 1060)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 118, in script
+    y and e " hehe"
+  File "renpy/ast.py", line 2935, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 994, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/sayexports.py", line 129, in say
+    who(what, *args, **kwargs)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1503, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1321, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^ 
+  File "renpy/character.py", line 1249, in resolve_say_attributes
+    raise Exception(
+    ...<2 lines>...
+    )
+Exception: Say has image attributes ('and', 'e'), but there's no image tag associated with the speaking character.
+
+While running game code:
+  File "game/script.rpy", line 118, in script
+    y and e " hehe"
+Exception: Say has image attributes ('and', 'e'), but there's no image tag associated with the speaking character.
