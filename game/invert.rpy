@@ -1,15 +1,13 @@
 define e = Character("Laura",color="#ffeba9")
 define y = Character("You", color="#ffffff")
-
 $ global h
 $ global x
 
-label candle:
-    scene candle
+label invert:
+    scene invert
     with fade
-    e "i love the use of watercolor for the background!"
-    e"it adds a lot of dimention and creates a soft vibe around the painting"
-    e"what do you think?"
+    e "Wow, this is beautiful! the composition is also really good!"
+    e"ohh! they have the fliped version as well!!"
 
     menu:
         "hmmm.... ":
@@ -19,7 +17,7 @@ label candle:
             y"('you gotta agree with everything the girl says'-how to get a girlfriend 101)"
             y"I am not sure, i am sure its whatever you said !"
             e"oh..."
-            e"well... it could be just a simple painting..."
+            e"then , lets move on to the next one?"
             y"yeaa, definetly\n ;;-_- \n haha...."
 
             $ l += (x-h*0.25)
@@ -30,5 +28,19 @@ label candle:
                 y"uhhh..."
                 y"(i think i may have seemed uninterseted, fak... )"
 
+
+            jump artgallerys
+
+        "go see the fliped version":
+            $ l +=2
+            scene invertpt2
+            with fade
+            e "wow, i can see the details in the girl so much better now !"
+            y "yea, your ryt,"
+            y "....."
+            y "do-do you think that c-could be us?"
+            y">///<"
+            e "I , i am not sure,but i promised i would tell you at the end "
+            e"^///^"
 
             jump artgallerys

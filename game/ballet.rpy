@@ -1,10 +1,10 @@
 define e = Character("Laura",color="#ffeba9")
 define y = Character("You", color="#ffffff")
+
 $ global h
 $ global x
-$ global art
+
 label ballet:
-    $ art +=1
     scene ballet
     with fade
     e "Wow, this is beautiful! I love the way the ballerina is captured in mid-air. The colors are so vibrant and the movement is so graceful."

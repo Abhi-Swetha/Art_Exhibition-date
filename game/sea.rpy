@@ -1,14 +1,14 @@
 define e = Character("Laura",color="#ffeba9")
 define y = Character("You", color="#ffffff")
-
 $ global h
 $ global x
 
-label candle:
-    scene candle
+label sea:
+    scene sea
     with fade
-    e "i love the use of watercolor for the background!"
-    e"it adds a lot of dimention and creates a soft vibe around the painting"
+    e "Wow, this is beautiful! I love the way the ballerina is captured in mid-air. The colors are so vibrant and the movement is so graceful."
+    e"the ballerina dosent seem so happy though,"
+    e "I wonder what the artist was trying to convey with this painting. Maybe it's a commentary on the invisible struggles or ristricktion on those we admire?."
     e"what do you think?"
 
     menu:
