@@ -35,7 +35,7 @@ label invert:
                 y"(i think i may have seemed uninterseted, fak... )"
                 call iax
                 jump artgallerys
-        return
+    return
 
 label  iax:
     scene invertpt2

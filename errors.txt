@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/field.rpy", line 48: expected menuitem
-    return
-    ^
+File "game/script.rpy", line 128: Only one say menuitem may exist per menu.
+    extend "\This may ruin the game experience and suspensce."
+                                                              ^
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Thu Jun 25 17:36:57 2026
+Thu Jun 25 21:02:14 2026

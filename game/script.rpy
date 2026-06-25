@@ -121,6 +121,19 @@ screen artgallerys():
         action Jump("u_c")
 
 label start:
+    scene black
+    centered "Would you like to have the points be displayed at the top?\nThis may ruin the game experience and suspensce."
+    menu Points:
+        
+        "Yes! I want to see the amt of points i have!":
+            while True:
+                "Current points = [l]"
+                jump start1
+        "No, I want to Play normally!":
+            jump start1
+
+label start1:
+           
     scene bg room
     with fade
     show L straighthappy 
@@ -357,6 +370,7 @@ label badend:
 
 label goodend:
     scene bg mainplain
+    with fade
     show L sidehappy
     e"I-uhh, I first want to thank you for confessing to me..."
     show L sidetalk
@@ -381,3 +395,4 @@ label goodend:
     $ persistent.good_end = True
     centered "GOOD END"
     return
+
