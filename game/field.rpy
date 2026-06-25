@@ -12,6 +12,11 @@ label field:
     e"what about you?"
 
     menu:
+        "explain how it feels to you":
+            $ l+=2
+            call fex
+            jump artgallerys
+
         "not suree":
             y"I am not sure...."
             e"oh..."
@@ -40,11 +45,8 @@ label field:
                 e "lets go to the next one!"
                 $ h=1
                 jump artgallerys
+        return
         
-        "explain how it feels to you":
-            $ l+=2
-            call fex
-            jump artgallerys
 label fex:
     y"I think the intent of this piece must be to give off a cool summer vibe?  "
     e"i can see that, but if that was the intention wouldnt the colors saturation be a {b}{i}bit{/i}{/b} less saturated?, whatcha think?"
@@ -52,3 +54,4 @@ label fex:
     y"like how both us may have diffrent idea of what an ideal season is?"
     e"ahhh, that makes sense! may to them {b}summer{/b} must be birght sun and criket sound?"
     y"smt like that!, afterall don't think the best part viewing artworks is to see how diffrent people have diffrent interpratations about the {i}same{/i} exact thing!"
+    return

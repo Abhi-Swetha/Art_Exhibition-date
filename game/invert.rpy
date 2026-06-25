@@ -11,6 +11,11 @@ label invert:
     e"do you wanna go see it?"
 
     menu:
+        "go see the fliped version":
+            $ l +=2
+            call iax
+            jump artgallerys
+
         "hmmm.... ":
             
             y"(shii.. i completely zoned out, but staying up late to reserve this place was worth it tho )"
@@ -30,11 +35,8 @@ label invert:
                 y"(i think i may have seemed uninterseted, fak... )"
                 call iax
                 jump artgallerys
+        return
 
-        "go see the fliped version":
-            $ l +=2
-            call iax
-            jump artgallerys
 label  iax:
     scene invertpt2
     with fade
@@ -45,3 +47,4 @@ label  iax:
     y">///<"
     e "I , i am not sure,but i promised i would tell you at the end "
     e"^///^"
+    return
