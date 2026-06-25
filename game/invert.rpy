@@ -33,6 +33,7 @@ label invert:
 
         "go see the fliped version":
             $ l +=2
+            call iax
             jump artgallerys
 label  iax:
     scene invertpt2
