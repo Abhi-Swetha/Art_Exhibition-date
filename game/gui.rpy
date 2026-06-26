@@ -32,7 +32,7 @@ define gui.idle_color = '#97c6a3'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = '#aaaaaa'
+define gui.idle_small_color = '#e4a2a2'
 
 ## The color that is used for buttons and bars that are hovered.
 define gui.hover_color = '#f7e89d'
@@ -257,7 +257,7 @@ define gui.skip_ypos = 15
 define gui.notify_ypos = 68
 
 ## The spacing between menu choices.
-define gui.choice_spacing = 33
+define gui.choice_spacing = 25
 
 ## Buttons in the navigation section of the main and game menus.
 define gui.navigation_spacing = 6

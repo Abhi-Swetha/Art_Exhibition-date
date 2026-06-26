@@ -15,13 +15,13 @@ image L sidesmile = "images/L sidesmile.png"
 image L sidehappy = "images/L sidehappy.png"
 image L closedsmile = "images/L closedsmile.png"
 image L closedhappy = "images/L closedhappy.png"
-image L straightblushhappy=im.Scale("images/ L straightblushhappy.png",1920,1080)
+image L straightblushhappy=im.Scale("images/L straightblushhappy.png",607.50,1080)
 image L straightnortalk="images/L straightcnortalk.png"
 image L straightnor="images/L straightnor.png"
-image L closedblushhappy=im.Scale("images/L closedblushhappy.png",1920,1080)
+image L closedblushhappy=im.Scale("images/L closedblushhappy.png",607.50,1080)
 image L sidenortalk="images/L sidenortalk.png"
-image L downhappy=im.Scale("images/L downhappy.png",1920,1080)
-image L downtalk=im.Scale("images/L downtalk.png",1920,1080)
+image L downhappy=im.Scale("images/L downhappy.png",607.50,1080)
+image L downtalk=im.Scale("images/L downtalk.png",607.50,1080)
 
 
 #all backgrounds
@@ -163,13 +163,24 @@ label start:
     show L straighthappy
     e"but What do you wanna do first? look at the art or go eat?"
     show L straightsmile
+    with Pause(0.5)
+    show L straightsmile at left
+    with move
+    pause (0.5)
+    
 
     menu:
         "Look at the art first":
+            show L straightsmile at center
+            with move
+            pause (0.5)
             y "Alright, lets go look at the art first!"
             $ l += 1
-            jump artgallerys
+            jump artgallery
         "Go eat first":
+            show L straightsmile at center
+            with move
+            pause (0.5)
             y "Alright, lets go eat first!"
             jump food
 
@@ -185,11 +196,17 @@ label food:
     
 
 label artgallery:
+    scene black
+    centered"You and Laura both enter the Art gallery Room"
     scene bg artgallery 
     with fade
-    show L straighthappy 
+    show L straighthappy
+    pause(0.5)
     e "Wow, this place is amazing! I can't wait to see all the different kinds of art they have here!"
-    show L straighttalk
+    e"which art work do you wanna see first?"
+    hide L straightsmile
+    with moveoutleft
+    pause(0.3)
     jump artgallerys
     
 
@@ -308,6 +325,7 @@ label u_c:
 label end:
     scene bg artgallery
     show L sidehappy
+    with moveinleft
     e"I didn't realise so much time had passed ! today was really fun!"
     show L straightsmile
     y"I had a lot of Fun too"
@@ -316,6 +334,8 @@ label end:
     show L sidesmile
     y"Its fine,I asked you out anyway..."
     y"soo...?"
+    scene black
+    centered "You and Laura, leave the exhibition hall and go back to the waiting room.\nyou can feel your hands grow cold with both exictment and fear.\n \"Today wasn't that bad!\" you think, ofc you dozed off in the middle sometimes from being not able to sleep yesterday... but apart from that today went pretty well, ryt?!\n but now it is time to see if today actually went well... "
     if l >=12:
         jump goodend
     else:
@@ -324,8 +344,10 @@ label end:
 
 label badend:
     scene bg mainplain
-    with fade
-    show L sidehappy
+    show L straightnor
+    with fade 
+    pause(0.7)
+    show L straightnortalk
     e"I-uhh, I first want to thank you for confessing to me..."
     show L sidetalk
     e"I didn't think anyone would think of me that way, espeacialy {i}you{/i}"
@@ -337,8 +359,8 @@ label badend:
     e"I know you feelings are genuine, which is why i don't want to give you false hope."
     show L straightnortalk
     e"I don't think I can accept you confession, because i don't feel the same way"
-    y"I see,(｡·́︿·̀｡)"
-    y"I mean i expected it but, still ..(╥﹏╥)"
+    y"I see,(ᵕ—ᴗ—)"
+    y"I mean i expected it but, still ..(╥_╥)"
     y"Still,"
     show L sidesmile
     y"do you think we can continue being friends?"
@@ -356,13 +378,21 @@ label badend:
     show L straighthappy
     e"then i will be waiting"
     scene black
+    with fade
+    pause(0.5)
+    centered"It takes you a couple of months to get over the rejection and a few more before you could face Laura without the lingering feelings..."
+    centered" You go on with your life just as she has, and after almost Two years you ask her out to a drink, this time as a friend"
+    
     $ persistent.bad_end = True 
-    centered "BAD END" 
+    centered "✦•┈⋅⋯ ⋯⋅┈•✦\n\nBAD END\n\n✦•┈⋅⋯ ⋯⋅┈•✦" 
     return
 
 label goodend:
     scene bg mainplain
     with fade
+    show L straightsmile
+    with fade 
+    pause(0.3)
     show L sidehappy
     e"I-uhh, I first want to thank you for confessing to me..."
     show L sidetalk
@@ -385,5 +415,5 @@ label goodend:
     e"i wanna try and make this work..."
     scene black
     $ persistent.good_end = True
-    centered "GOOD END"
+    centered "₊✩‧₊˚౨ৎ˚₊✩‧₊\n\nGOOD END\n\n₊✩‧₊˚౨ৎ˚₊✩‧₊"
     return

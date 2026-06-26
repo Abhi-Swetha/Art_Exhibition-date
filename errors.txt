@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 128: Only one say menuitem may exist per menu.
-    extend "\This may ruin the game experience and suspensce."
-                                                              ^
+File "game/script.rpy", line 381: expected 'simple_expression' not found.
+    with with fade
+         ^
 
 Ren'Py Version: Ren'Py 8.5.3.26051504
-Thu Jun 25 21:02:14 2026
+Fri Jun 26 13:14:07 2026

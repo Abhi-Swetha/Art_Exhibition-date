@@ -1,35 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 125, in script
-    call screen big
-renpy.display.screen.ScreenNotFound: Screen 'big' is not known.
+After initialization, but before game start.
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/abhiswetha2008/Downloads/Created_Games/Art_Exhibition-date/game/saves/navigation.json.new' -> '/Users/abhiswetha2008/Downloads/Created_Games/Art_Exhibition-date/game/saves/navigation.json'
 
 -- Full Traceback ------------------------------------------------------------
 
 Traceback (most recent call last):
-  File "game/script.rpy", line 125, in script
-    call screen big
-  File "renpy/ast.py", line 2251, in execute
-    self.call("execute")
-    ~~~~~~~~~^^^^^^^^^^^
-  File "renpy/ast.py", line 2205, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/statements.py", line 381, in call
-    return method(parsed, *args, **kwargs)
-           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/common/000statements.rpy", line 698, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/exports/statementexports.py", line 327, in call_screen
-    renpy.exports.show_screen(_screen_name, *args, _transient=True, **kwargs)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "renpy/display/screen.py", line 1355, in show_screen
-    raise ScreenNotFound(name[0])
-renpy.display.screen.ScreenNotFound: Screen 'big' is not known.
+  File "renpy/bootstrap.py", line 401, in bootstrap
+    renpy.main.main()
+    ~~~~~~~~~~~~~~~^^
+  File "renpy/main.py", line 537, in main
+    renpy.dump.dump(False)
+    ~~~~~~~~~~~~~~~^^^^^^^
+  File "renpy/dump.py", line 257, in dump
+    os.rename(new, filename)
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/abhiswetha2008/Downloads/Created_Games/Art_Exhibition-date/game/saves/navigation.json.new' -> '/Users/abhiswetha2008/Downloads/Created_Games/Art_Exhibition-date/game/saves/navigation.json'
 
 macOS-26.5-arm64-arm-64bit arm64
 Ren'Py 8.5.3.26051504
-gushing abt my fav panels from mhanwas 1.0
-Thu Jun 25 14:51:29 2026
+Art Exhibition Date! 1.0
+Thu Jun 25 21:26:23 2026
