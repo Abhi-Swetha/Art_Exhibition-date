@@ -55,5 +55,13 @@ init python:
 
     gallery.button("candle")
     gallery.unlock_image("candle")
-    gallery.image("U")
+    gallery.image("C")
     gallery.condition("persistent.candle")
+
+    #gallery.button("Friends")
+    #gallery.unlock_image imScale("cg/friend.png",540 , 304)
+    #gallery.condition("persistent.bad_end")
+
+    #gallery.button("Lovers")
+    #gallery.unlock_image imScale("cg/lovers.png",540 , 304)
+    #gallery.condition("persistent.good_end")
